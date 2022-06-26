@@ -1,18 +1,23 @@
+/*HTML STYLES*/
 html{
     height: 100%;
     color: white;
 }
 
+/*BODY STYLES*/
 body{
     margin:0;
     padding:0;
     font-family: sans-serif;
-    background: linear-gradient(#61261D, #411A14, #2c110c);
+    background: linear-gradient(90deg, #61261D, #411A14, #2c110c);
 }
 
+/*HEADER STYLES*/
 .header{
     text-align: center;
 }
+
+/*NAVEGATION BARR STYLES*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -39,4 +44,16 @@ a:hover:not(.active) {
 }
 .active {
     background-color:#AD0000;
+}
+
+/*footer styles*/
+.footer{
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    top: 550px;
+    background-color: #333;
+}
+.footer h4{
+    text-align: center;
 }
